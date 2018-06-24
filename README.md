@@ -1,8 +1,11 @@
 # Loading ![JitPack](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)
 
 ##### A Dialog of loading which used for waiting network request or other time-consuming operation。
+# Preview
 
-# Usage
+<img src="https://github.com/lizihanglove/Loading/blob/master/art/loading.gif" width="200" hegiht="500" align=center />
+
+# Usage  ![JitPack](https://img.shields.io/badge/jitpack-1.0.0-green.svg)
 
 ###### Step 1. Add it in your root build.gradle at the end of repositories:
 ```
