@@ -17,7 +17,7 @@ import android.widget.ImageView;
  * @email one_mighty@163.com
  * @date 2018-06-24
  * @time 17:02
- * @desc 加载动画
+ * @desc Loading Dialog
  */
 public class Loading extends Dialog {
 
@@ -40,7 +40,7 @@ public class Loading extends Dialog {
     }
 
     /**
-     * 对话框创建者
+     *  Loading Dialog Builder
      */
     public static class Builder {
         private Context mContext;
