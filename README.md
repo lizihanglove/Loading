@@ -19,12 +19,26 @@
 
 ###### Step 2. Add the dependency
 ```
-  dependencies {
-	   implementation 'com.github.lizihanglove:Loading:v1.0.0'
+	dependencies {
+		implementation 'com.github.lizihanglove:Loading:v1.0.0'
 	}
 ```
 
-
+##### Step 3. Build a dialog
+###### a.Java
+```
+  Loading loading = new Loading.Builder(MainActivity.this)
+                  .setCancelable(false)
+                  .build();
+  loading.show();
+  loading.dismiss();
+```
+###### b.Kotlin
+```
+  var loading:Loading = Loading.Builder(activity).setCancelable(true).build()
+  loading.show()
+  loading.dismiss()
+```
 
 # license [![GitHub license](https://img.shields.io/github/license/lizihanglove/Loading.svg)](https://github.com/lizihanglove/Loading/blob/master/LICENSE)
 
