@@ -20,7 +20,7 @@
 ###### Step 2. Add the dependency
 ```
 	dependencies {
-		implementation 'com.github.lizihanglove:Loading:v1.0.0'
+		implementation 'com.github.lizihanglove:Loading:1.0.0'
 	}
 ```
 
